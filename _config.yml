@@ -1,14 +1,15 @@
 title: Evan Kerr
 name: Evan Kerr
 description: Personal site and blog
-url: "https://emk5389.github.io"
-baseurl: "/evankerr.github.io"
+url: "https://evankerr.me"
+baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes@4.28.0
 
 minimal_mistakes_skin: "default"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-paginate
