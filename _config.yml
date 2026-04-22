@@ -1,0 +1,45 @@
+title: Evan Kerr
+name: Evan Kerr
+description: Personal site and blog
+url: "https://emk5389.github.io"
+baseurl: "/evankerr.github.io"
+
+remote_theme: mmistakes/minimal-mistakes@4.28.0
+
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: /blog/page:num/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+  - scope:
+      path: ""
+    values:
+      layout: single
+
+author:
+  name: "Evan Kerr"
+  bio: ""
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/emk5389"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/emk5389"
