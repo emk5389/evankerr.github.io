@@ -56,8 +56,13 @@ tag_archive:
 
 author:
   name: "Evan Kerr"
-  bio: ""
+  avatar: "/assets/images/evan.jpg"
+  bio: "Founder of Inquisita"
+  email: "evan@inquisita.ai"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:evan@inquisita.ai"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/emk5389"
